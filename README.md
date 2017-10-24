@@ -4,3 +4,5 @@ Responsive Voting Resaults of Chubut Province Map, With Jquery Validate User Acc
 HTML5
 CSS3
 Jquery Plugin Used.
+  -Ajax Method.
+PHP & MysQl (for user validation)
