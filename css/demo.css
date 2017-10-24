@@ -1,0 +1,439 @@
+pre .nocode { background-color: none; color: #000 }
+pre .str { color: #A4D886 } /* string  - green */
+pre .str, pre .lit { color: #ffa0a0 } /* string  - pink */
+pre .kwd { color: #f0e68c; font-weight: bold }
+pre .typ { color: #98fb98 } /* type    - lightgreen */
+pre .pun { color: #fff }    /* punctuation */
+pre .pln { color: #fff }    /* plaintext */
+pre .dec { color: #98fb98 } /* decimal         - lightgreen */
+	
+/*	 	
+ pre .atn { color: #bdb76b; font-weight: bold }
+ */ 
+pre .atn { color: #8AC763; font-weight: bold }
+pre .tag { color: #8AC763; font-weight: bold } 
+pre .atv { color: #ffa0a0 }	
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums { margin-top: 0; margin-bottom: 0; color: #AEAEAE } /* IE indents via margin-left */
+li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8 { list-style-type: none }
+/* Alternate shading for lines */
+li.L1,li.L3,li.L5,li.L7,li.L9 { }
+	
+
+pre .com { 
+	color: #A4D886; /* зеленый */ 
+	color: #F0E68C; /* желтый */ 
+	color: #87CEEB; /* синий */ 
+	font-style:normal;
+	font-family:arial;
+} 
+
+
+pre.prettyprint.lang-html {
+	max-width:970px;
+	/* 
+	*/
+	overflow:hidden;
+}
+
+pre.prettyprint.lang-html:hover {
+	max-width:none;
+}
+
+body.black {
+	background:black;
+	box-shadow:none !important;
+}
+
+.black pre {
+	box-shadow: #555 0px 0px 15px;
+	border:1px solid #666;
+}
+
+.bif {
+	box-shadow:inset 0 0 10px #bbb !important;
+}
+pre {
+	display: inline-block; 
+	background-color: #222; 
+	margin-top:14px;
+	margin-bottom:14px;
+	padding-top:12px;
+	padding-left:12px;
+	padding-bottom:12px;
+	color:white;
+	-moz-tab-size: 4;
+	-webkit-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+	padding-right:20px !important;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	font-size:14px;
+}
+
+/* PP */
+
+html {
+	height:100%;
+}
+
+h1 {
+	font-size:25px;
+	margin-top:0;
+	line-height:1.2em;
+	margin-bottom:15px;
+	margin-top:15px;
+	font-weight:normal;
+}
+
+a {
+	color:#0077B3;
+}
+
+a:visited {
+	color:#0077B3;
+}
+
+body, html {
+	font-family:arial !important;
+	font-size:14px;
+}
+p {
+	margin-top:15px;
+	margin-bottom:15px;
+	line-height:1.3em;
+}
+.none {
+	display:none !important;
+}
+
+.dashed {
+	text-decoration:none;
+	border-bottom:1px dashed;
+}
+
+.backLink:hover {
+	color:#bc0000;
+}
+
+.demoAdsBox {
+	float:left;
+}
+
+.footer, .dfooter {
+	font-family:arial;
+	zoom:1;
+	margin-top:-150px;
+	height:150px;
+	position:relative;
+	padding-left:30px;
+}
+
+.clear {
+	clear:both !important;
+}
+
+
+.backLink {
+	line-height:1.2em;
+	float:left;
+	padding-top:5px;
+	margin-right:30px;
+	margin-bottom:15px;
+	color:#0077B3;
+	font-size:25px !important;
+	font-family:arial;
+	padding:5px;
+}
+
+
+
+
+.dlangBox {
+	font-weight:bold;
+}
+
+.dlangBox a {
+	font-weight:normal;
+	
+}
+
+.dlangBox span {
+	margin-right:7px;
+}
+
+.dnavBox a {
+	color:#777;
+}
+
+.jqVersionDescr {
+	margin-top:5px;
+	font-size:12px;
+}
+
+.jqBoxClose {
+	position:absolute;
+	top:2px;
+	right:4px;
+	text-decoration:none;
+	font-weight:bold;
+	color:black;
+	font-size:14px;
+	line-height:1em;
+}
+
+.dnavBox {
+	position:absolute;
+	top:10px;
+	right:17px;
+	line-height:1.3em;
+	font-size:11px;
+	color:#777;
+	z-index:100;
+}
+
+
+.jqBox {
+	position:absolute;
+	top:25px;
+	right:-5px;
+	background:white;
+	border:1px solid #bbb;
+	padding:15px;
+	z-index:200;
+	color:black;
+	-webkit-box-shadow: rgba(0,0,0,0.3) 0 0 21px;
+	-moz-box-shadow: rgba(0,0,0,0.3) 0 0 21px;
+	box-shadow: rgba(0,0,0,0.3) 0 0 21px;	
+}
+
+.jqBoxTitle {
+	font-size:13px;
+	white-space:nowrap;
+	margin-bottom:8px;
+}
+
+.buttonsLine form {
+	margin:0;
+	padding:0;
+	line-height:1em;
+}
+
+.buttonsLine form input {
+	margin:0;
+	padding:1px;
+	min-width:44px;
+	display:inline-block;
+	text-align:center;
+}
+
+.jqueryCurrent {
+	font-size:18px;
+	font-weight:normal;
+	padding-left:3px;
+	line-height:1em;
+	padding-top:2px;
+	padding-bottom:2px;
+	padding-left:2px;
+	padding-right:2px;
+	display:inline-block;
+	background:#FBEF9A;
+}
+
+.buttonsLine form,
+.jqueryCurrent {
+	margin-bottom:4px;
+	
+}
+
+
+body {
+	background:#fff;
+	padding:0;
+	margin:0;
+	height:100%;
+}
+
+.wrapper, 
+.demowrap {
+	min-height: 100% !important;
+	padding-left:30px;
+}
+
+body.nopadding div.demowrap {
+	padding-left:0;
+}
+
+
+.inner, .dinner {
+	padding-top:1px;
+	padding-bottom:200px;
+}
+
+.nopadding .demowrap {
+	padding:0 !important;
+}
+
+.FSrecommended {
+	font-size:18px;
+	margin-top:30px;
+	display:inline-block;
+	border:1px dashed green;
+	padding: 7px 12px;	
+	margin-bottom:20px;
+}
+
+.vertical-tabs {
+	margin-bottom:40px;
+}
+
+.noFooter {
+	margin-bottom:50px;
+}
+
+.backButtonAbsolute {
+	position:absolute;
+	bottom:10px;
+	left:10px;
+	display:inline;
+	z-index:1000;
+	background:#eee;
+	margin:0 !important;
+	
+	opacity: 0.8;
+	filter:alpha(opacity=80);
+}
+
+.maparuli{padding-left: 0%; padding-top: 3.2%; display: block;}
+.maparuli2{position: relative; width: 100%; margin: 0 auto !important; text-align: center; display: none;}
+.demo2 {/*border-style: solid; border-width: 1px; box-shadow: 2px 2px 2px #888888; */ width: 760px; /*760 */ height: 490px; /*490 */}
+.demo3 {/*border-style: solid; border-width: 1px; box-shadow: 2px 2px 2px #888888; */ width: 760px; /*760 */ height: 490px; /*490 */}
+.linea-mapa{border: none; border-top: dotted 1px #EAEAEA; width: 57%; float: left; margin-top: 20px;}
+.linea-mapa-abajo{border: none; border-top: dotted 1px #d3d9d9; width: 57%; float: left; margin-top: -30px;}
+
+.filtro-bus{border-bottom: solid 1px #ebebeb; width: 95%; margin: 0 auto; text-align: left; float: left; border-top: solid 1px #ebebeb;}
+
+.filtro-bus2{margin-top: -0.3% !important; border-bottom: solid 1px #ebebeb; width: 95%; margin: 0 auto; text-align: left; float: left; margin-left: 3%;}
+
+.botonselec{padding-top: 5px; /*border-top-left-radius: 23px; border-top-right-radius: 23px; */vertical-align: -webkit-baseline-middle; width: 183px; text-align: center; height: 26px; vertical-align: middle; background-color: #01076b; color: #fff !important; float: left; text-decoration: none !important; color: #fff; vertical-align: -webkit-baseline-middle;}
+.botonselec2{padding-top: 5px; /*border-top-left-radius: 23px; border-top-right-radius: 23px;*/ vertical-align: -webkit-baseline-middle;     width: 231px !important; /*margin-left: 2%;*/ width: auto; text-align: center; height: 26px; vertical-align: middle; background-color: #4d4d4d; opacity: 0.5; color: #fff !important; float: left; text-decoration: none !important; color: #fff; vertical-align: -webkit-baseline-middle;}    
+.botonselec2:hover{opacity: 0.9;}
+.botonselec:hover{opacity: 0.9;}
+.botonesa{text-decoration: none !important; color: #fff; }
+.botonesfiltro{margin: 0 !important; padding-top: 0 !Important;}
+
+.elmarisol{margin-top: -8%;}
+.madryn{margin-top: -8%;}
+.trelew{margin-top: -8%;}
+.rawson{margin-top: 8%;}
+.gaiman{margin-top: 8%;}
+.gaimancon{margin-top: 8%; width: 337px;}
+.dolavon{margin-top: 8%;}
+.dejulio{margin-top: 8%;}
+.lasplumas{margin-top: 5%;}
+.dique{margin-top: 8%;}
+.trevelin{margin-top: 8%;}
+.pasodeindios{margin-left: -2%; border:solid 1px #000;width: 38%;}
+
+.peronistafede{margin-left: 23%; color: #2187e7 !important; text-transform: uppercase;}
+.ciudadanaunidad{margin-left: 23%; color: #cacacb !important; text-transform: uppercase;}
+.chubutprimero{margin-left: 23%; color: #1d149c !important; text-transform: uppercase;}
+.nomcandi{font-size: 12px;}
+
+
+.menulateralgnrl{position: relative; list-style: none; padding-top: 1%; padding-right: 5.3%;}
+#menulateralgnrl{float: right; position: relative;}
+
+#botonera2loc{border-left: 1px dotted #dadada; display: none; width: 30% !important; position: relative; list-style: none; margin-top: 0% !important; padding-right: 9.3%; float: right;}
+
+.logochubu{width: 2%; float: left;}
+
+
+ @media (max-width: 1270px){
+ 		
+ 	.menulateralgnrl{position: relative; list-style: none; margin: 0 auto !important;}
+	#menulateralgnrl{float: left; position: relative; margin: 0 auto !important; width: 100%; margin-bottom: 11% !important;} 
+	#botonera2loc{border-left: 1px dotted #dadada; display: none; width: 30% !important; position: relative; list-style: none; margin-top: 0% !important; padding-right: 9.3%; float: left;}
+	.menul ul {list-style: none; margin: 0 auto !important; padding: 0; max-width: 45% !important; border-left: 1px dotted #dadada; overflow-x: hidden !Important;}
+	.filtro-bus2 {margin-top: -0.3% !important; border-bottom: solid 1px #ebebeb; width: 100%; margin: 0 auto; text-align: left; float: left; text-align: center;}
+	.linea-mapa-abajo {border: none; border-top: dotted 1px #d3d9d9; width: 100%;float: left; margin-top: -30px;}
+	#botonera2loc {border-left: 1px dotted #dadada; display: none; width: 100% !important; position: relative; list-style: none; margin-top: 0% !important; float: left; margin: 0 auto !important; text-align: center;}
+	.menu2 ul li ul {display: none; text-align: left;}
+	.menu2 {margin-bottom: 15%;}
+	.filtro-bus {border-bottom: solid 1px #ebebeb; width: 100%; margin: 0 auto; text-align: center; /*float: left;*/ border-top: solid 1px #ebebeb;}
+	h2{width: 100%; text-align: center;}
+	.logochubu{float: none; width: 6%; vertical-align: -webkit-baseline-middle; }
+	.estilosmenu22 {width: 50%;}
+	.botonselec {float: none !Important; background-color: none !Important; padding-top: 0px !important; }
+	.botonselec2 {float: none !Important; background-color: none !Important; padding-top: 0px !important;}
+	
+
+	
+	.botonesfiltro{width: 41%; margin: 0 auto !important; height: auto; min-width: 230px;}
+	.menu2{margin-top: -5%;}
+	 /* CSS HACK PARA MAPA MOBILE CENTRADO */ 
+
+	.demo2 {margin: 0 auto !important;} 
+	.maparuli{padding-left: 0%; padding-top: 3.2%; display: none !important;}
+
+		.maparuli2{position: relative; width: 100%; margin: 0 auto !important; text-align: center; display: block !Important; float: left;}
+	/* END CSS HACK PARA MAPA MOBILE CENTRADO */
+	
+	.botocajon1{height: 29px !important; background-color: #01076b; width: 25%; text-align: center !important; margin: 0 auto !important; min-width: 230px; padding-top: 10px;}
+	.botocajon2{height: 29px !important; background-color: #4d4d4d; width: 25%; text-align: center !important; margin: 0 auto !important; min-width: 230px;     padding-top: 10px;}
+	    
+	.linea-mapa {float: none;}
+	
+	#contenidog{text-align: center;}
+	.sistemadev{display: none;}
+
+}
+
+
+
+
+
+#conglo1r{height: 55px;}
+#conglo2r{height: 55px;}
+#conglo3r{height: 55px;}
+
+
+
+/* GENERAL REEMPLAZO BOOSTRAP*/
+
+
+.alert-success {
+    background-image: -webkit-linear-gradient(top,#dff0d8 0,#c8e5bc 100%);
+    background-image: -o-linear-gradient(top,#dff0d8 0,#c8e5bc 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#dff0d8),to(#c8e5bc));
+    background-image: linear-gradient(to bottom,#dff0d8 0,#c8e5bc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdff0d8', endColorstr='#ffc8e5bc', GradientType=0);
+    background-repeat: repeat-x;
+    border-color: #b2dba1;
+}
+
+.alert {
+    text-shadow: 0 1px 0 rgba(255,255,255,.2);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.25), 0 1px 2px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.25), 0 1px 2px rgba(0,0,0,.05);
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.alert {
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+
+
+

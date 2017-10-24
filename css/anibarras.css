@@ -1,0 +1,202 @@
+.content{
+	width:278px;
+	margin:0;
+	position:relative;
+	float:left;
+	font-size:12px;
+	line-height:2em;
+/*	padding:9px 0 30px;*/
+}
+.col { width:282px; }
+
+#skill { 
+	list-style:none; 
+	/*padding-top:30px;*/
+	/*width: 282px;*/
+	width: 65%;
+}
+
+#skill li { 
+	margin-bottom:70px; 
+	background:#000; 
+	height:22px; 
+	border-radius:3px; 
+	border-left:1px solid #111; 
+	border-top:1px solid #111; 
+	border-right:1px solid #333; 
+	border-bottom:1px solid #333;  
+}
+
+#skill li em { 
+	position:relative; 
+	top:-30px;
+}
+
+.expand { 
+	height:1px; 
+	margin:2px 0; 
+	background:#2187e7; 
+	position:absolute;
+	/*box-shadow:0px 0px 10px 1px rgba(0,198,255,0.4);*/
+}
+.expanda2 { 
+	height:1px; 
+	margin:2px 0; 
+	background:#1d149c; 
+	position:absolute;
+	/*box-shadow:0px 0px 10px 1px rgba(0,198,255,0.4);*/
+}
+.expanda3 { 
+	height:1px; 
+	margin:2px 0; 
+	background:#cacacb; 
+	position:absolute;
+	/*box-shadow:0px 0px 10px 1px rgba(0,198,255,0.4);*/
+}
+.expanda4 { 
+	height:1px; 
+	margin:2px 0; 
+	background:#000; 
+	position:absolute;
+	/*box-shadow:0px 0px 10px 1px rgba(0,198,255,0.4);*/
+}
+
+.ani1{ width:36%;  -moz-animation:ani1 4s ease-out; -webkit-animation:ani1 4s ease-out; height: 20px;}
+@-moz-keyframes ani1{ 0%  { width:0px;} 100%{ width:36%;}  }
+@-webkit-keyframes ani1{ 0%  { width:0px;} 100%{ width:36%;}  }
+
+.ani2{ width:32%;  -moz-animation:ani2 4s ease-out; -webkit-animation:ani2 4s ease-out; height: 20px;}
+@-moz-keyframes ani2{ 0%  { width:0px;} 100%{ width:32%;}  }
+@-webkit-keyframes ani2{ 0%  { width:0px;} 100%{ width:32%;}  }
+
+.ani3{ width:30%;  -moz-animation:ani3 4s ease-out; -webkit-animation:ani3 4s ease-out; height: 20px;}
+@-moz-keyframes ani3{ 0%  { width:0px;} 100%{ width:30%;}  }
+@-webkit-keyframes ani3{ 0%  { width:0px;} 100%{ width:30%;}  }
+
+.ani4{ width:17%;  -moz-animation:ani4 4s ease-out; -webkit-animation:ani4 4s ease-out; height: 20px;}
+@-moz-keyframes ani4{ 0%  { width:0px;} 100%{ width:17%;}  }
+@-webkit-keyframes ani4{ 0%  { width:0px;} 100%{ width:17%;}  }
+
+.ani5{ width:9%;  -moz-animation:ani5 4s ease-out; -webkit-animation:ani5 4s ease-out; height: 20px;}
+@-moz-keyframes ani5{ 0%  { width:0px;} 100%{ width:9%;}  }
+@-webkit-keyframes ani5{ 0%  { width:0px;} 100%{ width:9%;}  }
+
+.ani6{ width:4%;  -moz-animation:ani6 4s ease-out; -webkit-animation:ani6 4s ease-out; height: 20px;}
+@-moz-keyframes ani6{ 0%  { width:0px;} 100%{ width:4%;}  }
+@-webkit-keyframes ani6{ 0%  { width:0px;} 100%{ width:4%;}  }
+
+.ani7{ width:22%;  -moz-animation:ani7 4s ease-out; -webkit-animation:ani7 4s ease-out; height: 20px;}
+@-moz-keyframes ani7{ 0%  { width:0px;} 100%{ width:22%;}  }
+@-webkit-keyframes ani7{ 0%  { width:0px;} 100%{ width:22%;}  }
+
+.ani8{ width:13%;  -moz-animation:ani8 4s ease-out; -webkit-animation:ani8 4s ease-out; height: 20px;}
+@-moz-keyframes ani8{ 0%  { width:0px;} 100%{ width:13%;}  }
+@-webkit-keyframes ani8{ 0%  { width:0px;} 100%{ width:13%;}  }
+
+.ani9{ width:29%;  -moz-animation:ani9 4s ease-out; -webkit-animation:ani9 4s ease-out; height: 20px;}
+@-moz-keyframes ani9{ 0%  { width:0px;} 100%{ width:29%;}  }
+@-webkit-keyframes ani9{ 0%  { width:0px;} 100%{ width:29%;}  }
+
+.ani10{ width:27%;  -moz-animation:ani10 4s ease-out; -webkit-animation:ani10 4s ease-out; height: 20px;}
+@-moz-keyframes ani10{ 0%  { width:0px;} 100%{ width:27%;}  }
+@-webkit-keyframes ani10{ 0%  { width:0px;} 100%{ width:27%;}  }
+
+
+.ani11{ width:19%;  -moz-animation:ani11 4s ease-out; -webkit-animation:ani11 4s ease-out; height: 20px;}
+@-moz-keyframes ani11{ 0%  { width:0px;} 100%{ width:19%;}  }
+@-webkit-keyframes ani11{ 0%  { width:0px;} 100%{ width:19%;}  }
+
+.ani12{ width:14%;  -moz-animation:ani12 4s ease-out; -webkit-animation:ani12 4s ease-out; height: 20px;}
+@-moz-keyframes ani12{ 0%  { width:0px;} 100%{ width:14%;}  }
+@-webkit-keyframes ani12{ 0%  { width:0px;} 100%{ width:14%;}  }
+
+.ani13{ width:10%;  -moz-animation:ani13 4s ease-out; -webkit-animation:ani13 4s ease-out; height: 20px;}
+@-moz-keyframes ani13{ 0%  { width:0px;} 100%{ width:10%;}  }
+@-webkit-keyframes ani13{ 0%  { width:0px;} 100%{ width:10%;}  }
+
+.ani14{ width:14%;  -moz-animation:ani14 4s ease-out; -webkit-animation:ani14 4s ease-out; height: 20px;}
+@-moz-keyframes ani14{ 0%  { width:0px;} 100%{ width:14%;}  }
+@-webkit-keyframes ani14{ 0%  { width:0px;} 100%{ width:14%;}  }
+
+.ani15{ width:13%;  -moz-animation:ani15 4s ease-out; -webkit-animation:ani15 4s ease-out; height: 20px;}
+@-moz-keyframes ani15{ 0%  { width:0px;} 100%{ width:13%;}  }
+@-webkit-keyframes ani15{ 0%  { width:0px;} 100%{ width:13%;}  }
+
+.ani16{ width:24%;  -moz-animation:ani16 4s ease-out; -webkit-animation:ani16 4s ease-out; height: 20px;}
+@-moz-keyframes ani16{ 0%  { width:0px;} 100%{ width:24%;}  }
+@-webkit-keyframes ani16{ 0%  { width:0px;} 100%{ width:24%;}  }
+
+.ani17{ width:12%;  -moz-animation:ani17 4s ease-out; -webkit-animation:ani17 4s ease-out; height: 20px;}
+@-moz-keyframes ani17{ 0%  { width:0px;} 100%{ width:12%;}  }
+@-webkit-keyframes ani17{ 0%  { width:0px;} 100%{ width:12%;}  }
+
+.ani18{ width:6%;  -moz-animation:ani18 4s ease-out; -webkit-animation:ani18 4s ease-out; height: 20px;}
+@-moz-keyframes ani18{ 0%  { width:0px;} 100%{ width:6%;}  }
+@-webkit-keyframes ani18{ 0%  { width:0px;} 100%{ width:6%;}  }
+
+.ani19{ width:29%;  -moz-animation:ani19 4s ease-out; -webkit-animation:ani19 4s ease-out; height: 20px;}
+@-moz-keyframes ani19{ 0%  { width:0px;} 100%{ width:29%;}  }
+@-webkit-keyframes ani19{ 0%  { width:0px;} 100%{ width:29%;}  }
+
+.ani20{ width:21%;  -moz-animation:ani20 4s ease-out; -webkit-animation:ani20 4s ease-out; height: 20px;}
+@-moz-keyframes ani20{ 0%  { width:0px;} 100%{ width:21%;}  }
+@-webkit-keyframes ani20{ 0%  { width:0px;} 100%{ width:21%;}  }
+
+
+.ani21{ width:7%;  -moz-animation:ani21 4s ease-out; -webkit-animation:ani21 4s ease-out; height: 20px;}
+@-moz-keyframes ani21{ 0%  { width:0px;} 100%{ width:7%;}  }
+@-webkit-keyframes ani21{ 0%  { width:0px;} 100%{ width:7%;}  }
+
+
+.ani22{ width:26%;  -moz-animation:ani22 4s ease-out; -webkit-animation:ani22 4s ease-out; height: 20px;}
+@-moz-keyframes ani22{ 0%  { width:0px;} 100%{ width:26%;}  }
+@-webkit-keyframes ani22{ 0%  { width:0px;} 100%{ width:26%;}  }
+
+
+.ani23{ width:24%;  -moz-animation:ani23 4s ease-out; -webkit-animation:ani23 4s ease-out; height: 20px;}
+@-moz-keyframes ani23{ 0%  { width:0px;} 100%{ width:24%;}  }
+@-webkit-keyframes ani23{ 0%  { width:0px;} 100%{ width:24%;}  }
+
+.ani24{ width:19%;  -moz-animation:ani24 4s ease-out; -webkit-animation:ani24 4s ease-out; height: 20px;}
+@-moz-keyframes ani24{ 0%  { width:0px;} 100%{ width:19%;}  }
+@-webkit-keyframes ani24{ 0%  { width:0px;} 100%{ width:19%;}  }
+
+.ani25{ width:24%;  -moz-animation:ani25 4s ease-out; -webkit-animation:ani25 4s ease-out; height: 20px;}
+@-moz-keyframes ani25{ 0%  { width:0px;} 100%{ width:24%;}  }
+@-webkit-keyframes ani25{ 0%  { width:0px;} 100%{ width:24%;}  }
+
+
+.ani26{ width:15%;  -moz-animation:ani26 4s ease-out; -webkit-animation:ani26 4s ease-out; height: 20px;}
+@-moz-keyframes ani26{ 0%  { width:0px;} 100%{ width:15%;}  }
+@-webkit-keyframes ani26{ 0%  { width:0px;} 100%{ width:15%;}  }
+
+
+.ani27{ width:5%;  -moz-animation:ani27 4s ease-out; -webkit-animation:ani26 4s ease-out; height: 20px;}
+@-moz-keyframes ani27{ 0%  { width:0px;} 100%{ width:15%;}  }
+@-webkit-keyframes ani27{ 0%  { width:0px;} 100%{ width:15%;}  }
+
+
+.ani28{ width:21%;  -moz-animation:ani28 4s ease-out; -webkit-animation:ani28 4s ease-out; height: 20px;}
+@-moz-keyframes ani28{ 0%  { width:0px;} 100%{ width:21%;}  }
+@-webkit-keyframes ani28{ 0%  { width:0px;} 100%{ width:21%;}  }
+
+.ani29{ width:6%;  -moz-animation:ani29 4s ease-out; -webkit-animation:ani29 4s ease-out; height: 20px;}
+@-moz-keyframes ani29{ 0%  { width:0px;} 100%{ width:6%;}  }
+@-webkit-keyframes ani29{ 0%  { width:0px;} 100%{ width:6%;}  }
+
+.ani30{ width:6%;  -moz-animation:ani30 4s ease-out; -webkit-animation:ani30 4s ease-out; height: 20px;}
+@-moz-keyframes ani30{ 0%  { width:0px;} 100%{ width:6%;}  }
+@-webkit-keyframes ani30{ 0%  { width:0px;} 100%{ width:6%;}  }
+
+
+
+
+.votos {color: #2187e7; font-family: arial; font-size: 11px; font-style: normal !important; letter-spacing: 1px;}
+.votos2{color: #2187e7; font-family: arial; font-size: 11px; font-style: normal !important; letter-spacing: 1px; font-stretch: condensed !important; color: #1d149c !important; margin-top: 13px;}
+
+
+.votpor{ float: right; font-size: 18px; line-height: 0px; font-family: Arial; letter-spacing: 1px; font-stretch: expanded; color: #000; margin-top: 13px;}
+
+
+
+
